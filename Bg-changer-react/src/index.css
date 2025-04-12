@@ -19,7 +19,6 @@ h1{
 }
 .butn_container{
 margin-bottom: 20vh;
-background-color: blueviolet;
 display:flex;
 justify-content: space-around;
 align-items: center;
@@ -29,4 +28,7 @@ button{
   padding: 1vh 2vw;
   border-radius: 20vw;
   border: none;
+  box-shadow: 0 4px 6px rgba(0, 0.6, 0, 0.8); 
+  cursor: pointer; 
+  transition: transform 0.2s ease;
 }
