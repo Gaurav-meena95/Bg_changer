@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <Background/>
+    <Background btnColor={color} setColor={setColor} />
     </>
   )
 }
